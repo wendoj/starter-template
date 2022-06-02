@@ -1,5 +1,5 @@
 # How do you use this tempalte?
-Run ```
+Run ```md
 git clone https://github.com/wendoj/starter-template [the name of your project here]
 ```
 
