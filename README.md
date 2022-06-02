@@ -1,7 +1,7 @@
 # How do you use this tempalte?
-Run ```md
+Run `
 git clone https://github.com/wendoj/starter-template [the name of your project here]
-```
+`
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
