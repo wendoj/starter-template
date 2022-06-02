@@ -2,5 +2,18 @@
 const nextConfig = {
   reactStrictMode: true,
 }
+const withPWA = require("next-pwa")
+const runtimeCaching = require("next-pwa/cache")
 
-module.exports = nextConfig
+module.exports = withPWA({
+  nextConfig,
+  images: {
+    domains: [],
+  },
+  pwa: {
+    dest: "public",
+    sw: 'service-worker.js',
+    skipWaiting: true,
+    runtimeCaching,
+  },
+})
